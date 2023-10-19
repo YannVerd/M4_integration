@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     body{
+        display: flex;
+        justify-content: center;
+        
+    }
+    section{
+        width: 800px;
+        height: auto;
+        border: 1px solid gray;
+        padding: 0.5rem;
+    }
+    #left{
+        float: left;
+        width: 294px;
+       
+    }
+    #topRight{
+        float: right; 
+    }
+
+    #firstRight{
+        margin-right: 7px;
+    }
+
+    #middle{
+        margin-left: 12px
+    }
+
+    #clear{
+        clear: both;
+    }
+</style>
+<body>
+    <section>
+        <div id="left">
+            <img src="./page04_img01_294x134.jpg" />
+            <img src="./page04_img02_294x301.jpg" />
+            <img src="./page04_img05_294x282.jpg" />
+        </div>
+        <div id="topRight">
+            <img id="firstRight" src="./page04_img03_254x410.jpg" />
+            <img src="./page04_img04_228x410.jpg" />
+        </div>
+        <img id="middle" src="./page04_img06_494x323.jpg" />
+        <div id="clear"></div>
+        <img src="./page04_img07_800x369.jpg" />
+    </section>
+</body>
+</html>

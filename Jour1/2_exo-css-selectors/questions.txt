@@ -1,0 +1,59 @@
+1. Sélectionnez tous les éléments <div> ayant la classe "box".
+
+2. Sélectionnez le premier élément <div> ayant la classe "box".
+
+3. Sélectionnez tous les éléments <li> de la liste <ul>.
+
+4. Sélectionnez le dernier élément <li> de la liste <ul>.
+
+5. Sélectionnez tous les éléments <p> qui sont des enfants directs de <body>.
+
+6. Sélectionnez tous les éléments <a> ayant un attribut href commençant par "https".
+
+7. Sélectionnez tous les éléments <a> ayant un attribut href se terminant par ".com".
+
+8. Sélectionnez tous les éléments <a> ayant un attribut href contenant "example".
+
+9. Sélectionnez tous les éléments <td> qui sont des descendants directs de <table>.
+
+10. Sélectionnez tous les éléments <td> qui sont des descendants directs de la première ligne <tr> de la table.
+
+11. Sélectionnez tous les éléments <th> qui sont des frères précédents de <td> dans la table.
+
+12. Sélectionnez tous les éléments <td> qui sont des frères suivants de <th> dans la table.
+
+13. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container".
+
+14. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box".
+
+15. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez le premier élément.
+
+16. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les deux premiers éléments.
+
+17. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les trois premiers éléments.
+
+18. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les quatre premiers éléments.
+
+19. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les cinq premiers éléments.
+
+20. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les six premiers éléments.
+
+21. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les sept premiers éléments.
+
+22. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les huit premiers éléments.
+
+23. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les neuf premiers éléments.
+
+24. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les dix premiers éléments.
+
+25. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les cinq derniers éléments.
+
+26. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les quatre derniers éléments.
+
+27. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les trois derniers éléments.
+
+28. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les deux derniers éléments.
+
+29. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez le dernier élément.
+
+30. Sélectionnez tous les éléments <div> qui sont des enfants directs de l'élément avec l'id "container" et qui ont une classe "box", mais excluez les deux derniers éléments et le premier élément.

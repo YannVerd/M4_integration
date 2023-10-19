@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    div >img{
+        display: inline-block;
+        
+    }
+    div img:not(:first-child){
+        margin-left: 7px;
+    }
+    section{
+        border: 1px solid gray;
+        padding: 0.5rem;
+        max-width: 800px;
+        height: auto;
+    }
+    
+    
+</style>
+<body>
+    <section>
+        <img src="./page03_img01_800x167.jpg"/>
+        <img src="./page03_img02_800x245.jpg"/>
+        <div>
+            <img src="./page03_img03_216x449.jpg"/>
+            <img src="./page03_img04_208x449.jpg"/>
+            <img src="./page03_img05_352x449.jpg"/>
+        </div>
+        <img src="./page03_img06_800x225.jpg" />
+    </section>
+</body>
+</html>

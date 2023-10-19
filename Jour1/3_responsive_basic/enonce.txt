@@ -1,0 +1,14 @@
+
+A l'aide de l'image jointe, 
+réalisez le design réactif (responsive) d'une page basique,
+avec les breakpoints suivants :
+  mobile  : 480px
+  tablet  : 768px
+  desktop : 1440px
+et en utilisant l'approche Grid Module, 
+les blocs restent vides de contenu ...
+
+
+
+
+ 

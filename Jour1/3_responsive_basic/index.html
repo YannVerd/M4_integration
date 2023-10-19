@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3_repsonsive_basic</title>
+</head>
+<style>
+     section{
+        display: grid;
+        grid-template-columns: repeat(6, 2fr);
+        grid-template-rows: repeat(8, 1fr);
+        gap: 10px;
+    }
+    h1{
+        text-align: center;
+    }
+
+    div{
+        border: solid red 3px;
+    }
+
+    #A{
+        grid-column: 1 / 7;
+        grid-row: 1;
+    }
+    #B{
+        grid-column: 2 / 6;
+        grid-row: 2;
+    }
+    #C{
+        grid-column: 1;
+        grid-row: 2 / 8;
+    }
+    #D{
+        grid-column: 2 / 6;
+        grid-row: 3/8;
+    }
+    #E{
+        grid-column: 6;
+        grid-row: 2 / 8;
+    }
+    #F{
+        grid-column: 1 / 7;
+        grid-row: 8;
+    }
+    @media screen and (max-width:480px){
+        #A{
+            grid-column: 1 / 7;
+            grid-row: 1;
+        }
+        #B{
+            grid-column: 1 / 7;
+            grid-row: 2;
+        }
+        #C{
+            grid-column: 1 / 7;
+            grid-row: 6;
+        }
+        #D{
+            grid-column: 1 / 7;
+            grid-row: 3/6;
+        }
+        #E{
+            grid-column: 1 / 7;
+            grid-row: 7;
+        }
+        #F{
+            grid-column: 1 / 7;
+            grid-row: 8;
+        }
+    }
+    @media screen and (min-width:480px) and (max-width:768px){
+        #A{
+            grid-column: 1 / 7;
+            grid-row: 1;
+        }
+        #B{
+            grid-column: 1 / 7;
+            grid-row: 2;
+        }
+        #C{
+            grid-column: 1;
+            grid-row: 3 / 8;
+        }
+        #D{
+            grid-column: 2 / 7;
+            grid-row: 3/8;
+        }
+        #E{
+            grid-column: 1;
+            grid-row: 8;
+        }
+        #F{
+            grid-column: 2 / 7;
+            grid-row: 8;
+        }
+
+
+    }
+   
+   
+   
+   
+
+</style>
+<body>
+    <section>
+        <div id="A"><h1>A</h1></div>
+        <div id="B"><h1>B</h1></div>
+        <div id="C"><h1>C</h1></div>
+        <div id="D"><h1>D</h1></div>
+        <div id="E"><h1>E</h1></div>
+        <div id="F"><h1>F</h1></div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,41 @@
+Première journée : 
+
+exercice 1 : 
+
+cf dossier 1_exo-design-comics
+A l'aide de 4 pages (appellées page1.html, page2.html ...) , réalisez l'intégration des images selon le modèle 
+(cf image complète à partir des images découpées)
+
+vous pouvez utiliser n'importe laquelle des techniques vues en cours ... 
+
+exercice 2 :
+
+dans le dossier 2_exo_css_selector, et avec le code fourni dans page.html,
+mettez en place les selecteurs listés dans le fichier questions.txt.
+Vous devrez placer ces selecteurs dans un fichier séparé style.css 
+en les prefixant (en commentaires) par S_+n° (soit S_1 à S_30) 
+
+exercice 3 :
+
+rendez-vous dans le dossier 3_exo_responsive_basic, et réalisez la page demandée (cf fichier enonce.txt)
+
+
+Pour la deuxieme journée :
+
+Vous devrez réaliser l'intégration du site single page fournie ,
+en version desktop en priorité,  
+si vous êtes rapide, vous pouvez tenter l'intégration du responsive avec les fichiers fournis egalement ... 
+à vous de décider des breakpoints des media queries , vous pouvez utiliser ceux de l'exercice 3 ,
+et choisir l'approche de mise en page (float,grid,flexbox)
+
+L'idée est de faire le maximum de mise en page, pour cela vous disposez des assets deja préparés ... 
+Pour gagner du temps, et ne pas avoir à saisir les blocs de texte, vous pouvez les découper directement dans l'image, 
+et vous en servir tels quels. (	avec paint dans windows, pas besoin d'installer un logiciel de traitement d'images!)
+
+Tout cela est evidemment à envoyer dans votre dépôt git dans un dossier "M4_integration",
+subdivisé en deux sous-dossiers 'jour1' et 'jour2'.
+Ceux (il y en a 3 !) qui n'ont pas encore déposé les infos de ce compte git doivent le faire impérativement (dans le fichier adéquat de Teams dans Fichiers > Documents_divers > Installs_configs_etc > Github_ERN4.xls ) 
+
+
+Que le code soit avec vous !
+
