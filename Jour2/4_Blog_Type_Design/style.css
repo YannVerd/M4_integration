@@ -1,0 +1,101 @@
+body{
+    width: 80%;
+    margin: auto;
+    
+}
+p{
+    color: darkgray;
+    
+}
+h1{
+    font-size: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 2rem 0;
+}
+
+/* header managment */
+a{
+    color: darkgrey;
+    margin: 1rem;
+}
+button{
+    background-color: darkorange;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* Main managment */
+.portrait{
+    width: 3rem;
+    height: 3rem;
+}
+
+/* first newsletter */
+#art_first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+
+}
+#art_first p{
+    margin-top: 0;
+}
+
+#top_main{
+    display: flex;
+    
+}
+#top_main h1{
+    margin-top: 0;
+}
+
+#img_topMain{
+    width: 30%;
+    height: 100%;
+}
+/* others Newsletter */
+#sub_main{
+    display: flex;
+    align-content: center;
+    margin-top: 3rem;
+}
+.img_subMain{
+    height: 10rem;
+    width: 100%;
+}
+
+#bot_middle, #bot_right{
+    margin-left: 1rem;
+}
+/* Cards managment */
+.card{
+    display: flex;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card h5, .card p{
+    margin: 0;
+    margin-left: 1rem;
+}
+/* footer managment */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+@media screen and (max-width: 768){
+    #sub_main{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
