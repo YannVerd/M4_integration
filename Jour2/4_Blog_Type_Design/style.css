@@ -132,7 +132,7 @@ footer{
     #bot_middle, #bot_right{
         margin-left: 0;
     }
-
+}
 @media screen and (max-width: 480px){
     nav{
         display: none;
