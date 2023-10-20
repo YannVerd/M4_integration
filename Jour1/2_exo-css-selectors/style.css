@@ -3,25 +3,25 @@ div.box{}
 /* S_2 */
 div.box:first-child{}
 /* S_3 */
-ul li{}
+ul li{color: yellow}
 /* S_4 */
-ul li:last-child{}
+ul li:last-child{background-color: aqua;}
 /* S_5 */
-body>p{}
+body>p{color: blue}
 /* S_6 */
-a[href^="http"]{}
+a[href^="http"]{color: red}
 /* S_7 */
-a[href$=".com"]{}
+a[href$=".com"]{background-color: aquamarine;}
 /* S_8 */
-a[href*="exemple"]{}
+a[href*="exemple"]{text-decoration:underline;}
 /* S_9 */
-table > tr > td{}
+table  td{color: red}
 /* S_10 */
-table > tr:first-child > td{}
+table tr:first-child td{background-color: blue}
 /* S_11 */
-th + td{}
+th + td{text-align: underline;}
 /* S_12 */
-td + th{}
+td + th{text-decoration: solid;}
 /* S_13 */
 #container > div{}
 /* S_14 */
@@ -47,14 +47,14 @@ td + th{}
 /* S_24 */
 #container > div.box:not(:nth-child(-n+10)){}
 /* S_25 */
-#container > div.box:not(:nth-last-child(-n+5)){}
+#container > div.box:not(:nth-last-child(-n+5)){color: red}
 /* S_26 */
-#container > div.box:not(:nth-last-child(-n+4)){}
+#container > div.box:not(:nth-last-child(-n+4)){background-color: blue;}
 /* S_27 */
-#container > div.box:not(:nth-last-child(-n+3)){}
+#container > div.box:not(:nth-last-child(-n+3)){text-decoration: underline;}
 /* S_28 */
 #container > div.box:not(:nth-last-child(-n+2)){}
 /* S_29 */
 #container > div.box:not(:last-child){}
 /* S_30 */
-#container > div.box:not(:nth-last-child(-n+2) :first-child){}
+#container > div.box:not(:nth-last-child(-n+2), :first-child){text-decoration: line-through;}
