@@ -179,15 +179,20 @@ footer{
     #burger:hover{
         cursor: pointer;
     }
+    a{
+        color: darkorchid;
+    }
 
     button{
         background-color: transparent;
         font-size: 0.75rem;
+        color: darkmagenta;
         padding: 0;    
     }
     button:hover{
-        background-color: darkorange;
+        border-radius: 20px;
         text-align: center;
+        padding: 1rem;
     }
 
     footer{

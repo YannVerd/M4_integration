@@ -19,7 +19,7 @@ myBurger.addEventListener("click", () =>{
         myBurger.style.width = "24px";
         myBurger.style.height = "20px";
         myBurger.style.transform = "rotate(90deg)";
-        myUL.style.transiton = "all 2s";
+        myUL.style.transition = "all 2s";
         myUL.style.display = "block";
         isCliked = true;
         for(i=0; i < myLI.length; i++){
@@ -44,7 +44,8 @@ for(i=0; i < myLI.length; i++){
     });
     myLI[i].addEventListener("mouseout", function() {
         this.style.backgroundColor = "transparent";
-    });   
+    });
+   
 }
 
 // listen click everywhere
@@ -72,3 +73,4 @@ window.addEventListener("click", function(event) {
 
 // know issues:
 //  * when you resize after use the burger menu create a space at the right of the nav. I don't know why :)
+//  * background button hover in menu burger is overwritted
