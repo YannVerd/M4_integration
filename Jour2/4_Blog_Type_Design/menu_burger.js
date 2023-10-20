@@ -24,18 +24,16 @@ myBurger.addEventListener("click", () =>{
         isCliked = true;
         for(i=0; i < myLI.length; i++){
             myLI[i].style.display = "block";
-            myLI[i].style.color = "black"    
+            myLI[i].style.color = "black";    
         }
 
     } else {
         isCliked = false;
-        myMenu.style.position ="static";
         myBurger.style.transition = "all 1s";
         myBurger.style.transform = "rotate(0deg)";
+        myMenu.style.position ="static";
         myUL.style.display = "none";
-
     }
-
 });
 
 
@@ -59,10 +57,13 @@ window.addEventListener("click", function(event) {
     } 
 });
 
-sizeWin=window.matchMedia("(max-width: 500px)").matches;
-console.log(sizeWin);
+
 
 //try to use an order to overwrite the css querry
+
+// sizeWin=window.matchMedia("(max-width: 500px)").matches;
+// console.log(sizeWin);
+
 // if(!sizeWin){
 //     myMenu.style.display = "none";
 //     myBurger.style.display = "none";
@@ -70,4 +71,4 @@ console.log(sizeWin);
 
 
 // know issues:
-//  * when you resize after use the burger menu create a space at the right of the nav
+//  * when you resize after use the burger menu create a space at the right of the nav. I don't know why :)

@@ -32,13 +32,18 @@ a{
 }
 a:hover, button{
     cursor: pointer;
+    
 }
+
 
 button{
     background-color: darkorange;
     border: none;
     border-radius: 5px;
     padding: 1rem;
+}
+button:hover{
+    background-color: lightsalmon;
 }
 ul{
     display: none;
